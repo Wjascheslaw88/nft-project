@@ -1,0 +1,42 @@
+.backgraund {
+  background: #141416;
+  color: white;
+  padding: 40px 20px;
+}
+
+.wrapper1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+    border-bottom: 1px solid #333;
+
+}
+
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+.textFooter {
+  color: #999;
+ margin: 20px 0px 0px 40px;
+}
+
+.button {
+  border: none;
+  color: white;
+  background-color: #141416;
+  margin-left: 10px;
+}

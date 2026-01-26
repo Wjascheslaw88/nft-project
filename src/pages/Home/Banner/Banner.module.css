@@ -1,0 +1,67 @@
+.glblock {
+  border-radius: 30px;
+  background-color: #141416;
+  display: flex;
+  margin: 40px 40px 40px 40px;
+}
+
+.textbutton {
+  margin: 30px 30px 30px 100px;
+}
+
+.texth1 {
+  font-family: "Poppins";
+  font-size: 45px;
+  margin-bottom: 0px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.texth2 {
+margin-bottom: 50px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20.2654px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  color: #d5d5d5;
+}
+
+.images1 {
+  margin: 40px 40px 40px 220px;
+  width: 390px;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+   -webkit-user-drag: none;
+}
+
+.blockbutton {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonbanner1 {
+  width: 183.06px;
+  height: 67.66px;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.3567px;
+  line-height: 130%;
+  color: #141416;
+}
+
+.buttonbanner2 {
+  width: 183.06px;
+  height: 67.66px;
+  background: #141416;
+  border-radius: 12px;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.3567px;
+  line-height: 130%;
+  color: #ffffff;
+}

@@ -1,0 +1,83 @@
+.uploadWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.dragger {
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  border: 2px dashed #d9d9d9;
+  border-radius: 16px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dragger:hover {
+  border-color: #1890ff;
+}
+
+.dragContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.uploadIcon {
+  font-size: 48px;
+  color: #1890ff;
+  margin: 0 0 16px 0;
+}
+
+.uploadText {
+  margin: 0 0 8px 0;
+}
+
+.boldText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.uploadHint {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.buttonUpload {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 327px;
+  height: 63px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #141416;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonUpload:hover {
+  background: #000000;
+  color: white;
+}
+

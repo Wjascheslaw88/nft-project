@@ -1,0 +1,34 @@
+.wrapper {
+  max-width: 1200px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.header {
+   margin-bottom: 100px;
+  text-align: center;
+ 
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+.leftSection {
+  flex: 1;
+}
+
+.rightSection {
+  flex: 1;
+}
+
+
+

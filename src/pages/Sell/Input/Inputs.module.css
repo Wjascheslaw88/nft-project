@@ -1,0 +1,98 @@
+
+.inPutsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+line-height: 125%;
+letter-spacing: 0%;
+}
+
+.input, .textArea, .select {
+  width: 100%;
+}
+
+.textArea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.row .inputGroup {
+  flex: 1;
+}
+
+.priceInput, .stockInput {
+  width: 100%;
+}
+
+
+.switchwrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.switchItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.switchText {
+  flex: 1;
+}
+
+.switchText h3 {
+  margin: 0 0 4px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.switchText h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+}
+
+
+
+
+.buttonCreate{
+ color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 63px;
+  font-size: 16px;
+  font-weight: 600;
+  background: #141416;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+}

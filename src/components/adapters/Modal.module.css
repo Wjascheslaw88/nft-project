@@ -1,0 +1,139 @@
+
+
+/* Кастомные стили для модального окна */
+.modalCustom :global(.ant-modal-content) {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.modalCustom :global(.ant-modal-close) {
+  top: 20px;
+  right: 20px;
+}
+
+.modalCustom :global(.ant-modal-close-x) {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.modalContent {
+  display: flex;
+  gap: 40px;
+  min-height: 500px;
+}
+
+.modalImageSection {
+  flex: 1;
+}
+
+.modalImage {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.modalInfoSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modalTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 16px 0;
+  color: #000;
+}
+
+.modalDescription {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  margin: 0 0 24px 0;
+}
+
+.modalDetails {
+  margin-bottom: 32px;
+}
+
+.detailRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.detailRow:last-child {
+  border-bottom: none;
+}
+
+.detailLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.detailValue {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.bidInfo {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.bidSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.bidSection:last-child {
+  margin-bottom: 0;
+}
+
+.bidLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.bidPrice {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.bidTime {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+.placeBidButton {
+  width: 100%;
+  height: 75px;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 0.3s;
+}
+
+.placeBidButton:hover {
+  background: #333;
+}

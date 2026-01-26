@@ -1,0 +1,31 @@
+.list {
+  display: flex;
+  margin-left: 100px;
+  gap: 40px;
+  align-items: flex-start;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.digit {
+  font-family: 'Public Sans';
+  font-weight: 600;
+  font-size: 36px;
+  color: #141416;
+  text-align: center;
+}
+
+.textbelow {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  color: #848586;
+  text-align: center;
+}
+
