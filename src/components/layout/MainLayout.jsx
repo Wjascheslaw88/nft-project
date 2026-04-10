@@ -1,4 +1,3 @@
-import react from "react";
 import { Outlet } from "react-router-dom";
 import Menu from "../Menu/Menu";
 import css from "./MainLayout.module.css"
