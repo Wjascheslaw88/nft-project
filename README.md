@@ -21,6 +21,8 @@
 
 ## 📦 Установка и запуск
 
+> **Важно:** Для полной работы приложения требуется запущенный бэкенд-сервер. Инструкцию по его запуску смотрите в репозитории [`backend-nft-project`](https://github.com/Wjascheslaw88/backend-nft-project).
+> 
 1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/Wjascheslaw88/nft-project.git
